@@ -11,10 +11,12 @@ package com.mycompany.mavenproject2;
 public class Persona {
     private String nombre;
     private String apellido;
+    private int edad;
 
-    public Persona(String nombre, String apellido) {
+    public Persona(String nombre, String apellido, int edad) {
         this.nombre = nombre;
         this.apellido = apellido;
+        this.edad = edad;
     }
 
     public String getNombre() {
@@ -23,6 +25,10 @@ public class Persona {
 
     public String getApellido() {
         return apellido;
+    }
+
+    public int getEdad() {
+        return edad;
     }
     
     

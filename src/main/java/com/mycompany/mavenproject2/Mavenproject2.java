@@ -12,9 +12,10 @@ package com.mycompany.mavenproject2;
 public class Mavenproject2 {
 
     public static void main(String[] args) {
-        Persona p1 = new Persona("Julio","Guzman");
+        Persona p1 = new Persona("Julio","Guzman",20);
         System.out.println("nombre : "+p1.getNombre());
         System.out.println("nombre : "+p1.getApellido());
+        System.out.println("nombre : "+p1.getEdad());
         
     }
 }
